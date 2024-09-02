@@ -127,6 +127,14 @@ p {
     background-color: white;
 }
 
+.navbar .nav-link.dropdown-toggle:focus,
+.navbar .nav-link.dropdown-toggle:active,
+.navbar .dropdown-item:focus,
+.navbar .dropdown-item:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 .btn-outline {
     color: #0078AE;
     border-color: #0078AE;
@@ -220,10 +228,14 @@ p {
 .what-we-do {
     padding-top: 30px;
     padding-bottom: 30px;
+    justify-content: center!important;
+    align-items: center!important;
 }
 
 .what-we-do img {
-    width: 1000px;
+    width: 100%;
+    justify-content: center!important;
+    align-items: center!important;
 }
 
 .step-business {
