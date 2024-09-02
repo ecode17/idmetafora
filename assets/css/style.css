@@ -1,0 +1,308 @@
+h1 {
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 0%;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 0%;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 0%;
+
+}
+
+/* iPhone 14 Pro Max */
+@media only screen and (max-width: 430px) {
+    h1 {
+        font-size: 24px;
+        margin-bottom: 0%;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 0%;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+
+    h4 {
+        font-size: 14px;
+        margin-bottom: 0%;
+    }
+
+    h5 {
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+
+    p {
+        font-size: 8px;
+        margin-bottom: 0%;
+    }
+
+    .social-media {
+        font-size: 10px !important;
+    }
+
+    .yt-idmetafora {
+        margin-top: 30px;
+        width: 300px;
+        height: auto;
+    }
+
+    .text-idmetafora {
+        margin-top: 30px;
+    }
+
+    .why-us img {
+        width: 50px !important;
+    }
+
+    .what-we-do img {
+        width: 400px !important;
+    }
+
+    .step-business .carousel-item {
+        padding: 10px !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .step-business .carousel-item img {
+        width: 35px !important;
+        display: block !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .request {
+        width: 150px;
+        padding: 0!important;
+    }
+
+    .request .req {
+        width: 15px;
+    }
+
+    .business-img {
+        width: 200px !important;
+    }
+
+    .how-journey .journey-step {
+        padding: 6px!important;
+        margin: 10px!important;
+    }
+
+    .how-journey img {
+        max-width: 50%!important;
+    }
+
+}
+
+.navbar {
+    background-color: white;
+}
+
+.btn-outline {
+    color: #0078AE;
+    border-color: #0078AE;
+}
+
+.btn-outline:hover {
+    background-color: #0078AE;
+    color: white;
+}
+
+.footer {
+    background-color: #0078AE;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer .social-media {
+    font-size: 14px;
+}
+
+.bg-banner {
+    background-image: url('../img/bg/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.yt-idmetafora {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.client-logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.why-us {
+    background-color: #0078AE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why-us img {
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+.achievement {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.achievement .achievement-item {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+.achievement .achievement-item-right {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.achievement .achievement-item img {
+    max-width: 20%;
+    height: auto;
+}
+
+.achievement .achievement-item-right img {
+    max-width: 20%;
+    height: auto;
+}
+
+.achievement .achievement-text {
+    color: black;
+    text-align: center;
+}
+
+.what-we-do {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.what-we-do img {
+    width: 1000px;
+}
+
+.step-business {
+    background-color: #0078AE;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.step-business .carousel-item img {
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-business .carousel-inner {
+    justify-content: center;
+    align-items: center;
+}
+
+.step-business .carousel-item {
+    background-color: #F47B20;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-can-you-request{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.request {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F47B20;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.req {
+    width: 50px;
+}
+
+.business-img {
+    width: 500px;
+}
+
+.how-journey{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-journey{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.how-journey .journey-step {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    margin: 30px;
+}
+
+.how-journey .journey-step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.how-journey img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
